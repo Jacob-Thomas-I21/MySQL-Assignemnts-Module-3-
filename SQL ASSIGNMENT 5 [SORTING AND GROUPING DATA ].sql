@@ -70,7 +70,7 @@ select Max(Population_in_millions) as Maximum_Population_in_millions from Countr
 
  --  5. Write a query to print the minimum population from Persons table. 
  
- select Min(Population_in_millions) as Maximum_Population_in_millions from Country;
+ select Min(Population_in_millions) as Minimum_Population_in_millions from Country;
  
  --  6. Insert 2 new rows to the Persons table making the Lname NULL. Then write another query to count Lname from Persons table.
  
